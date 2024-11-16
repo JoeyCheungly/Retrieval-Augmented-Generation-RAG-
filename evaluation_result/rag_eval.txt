@@ -1,0 +1,255 @@
+For RAG Evaluation of "RAGA.json" (LLM A+rerankerC):
+Question Type: inference_query
+ Precision: 0.84
+ Recall: 0.73
+ F1 Score: 0.73
+{'rouge1': 0.7399981535600813, 'rouge2': 0.3859764085935634, 'rougeL': 0.7378613966411941, 'rougeLsum': 0.7379583577696653}
+
+Question Type: comparison_query
+ Precision: 0.20
+ Recall: 0.02
+ F1 Score: 0.02
+{'rouge1': 0.020131413348690636, 'rouge2': 0.0, 'rougeL': 0.020080287382700266, 'rougeLsum': 0.020139632521148254}
+
+Question Type: null_query
+ Precision: 0.12
+ Recall: 0.01
+ F1 Score: 0.02
+{'rouge1': 0.0166699872276862, 'rouge2': 0.0002291213197388017, 'rougeL': 0.016535469883915268, 'rougeLsum': 0.016455145473494602}
+
+Question Type: temporal_query
+ Precision: 0.30
+ Recall: 0.02
+ F1 Score: 0.02
+{'rouge1': 0.023957937036957165, 'rouge2': 0.0017152658662092624, 'rougeL': 0.024428401458475336, 'rougeLsum': 0.023883801591062022}
+
+Overall Metrics:
+ Precision: 0.42
+ Recall: 0.24
+ F1 Score: 0.25
+{'rouge1': 0.24948629229683172, 'rouge2': 0.1234428906528229, 'rougeL': 0.2500445997966533, 'rougeLsum': 0.2504654792236707}
+--------------------
+
+For RAG Evaluation of "RAGB.json" (LLM A+rerankerC):
+Question Type: inference_query
+ Precision: 0.86
+ Recall: 0.87
+ F1 Score: 0.87
+{'rouge1': 0.86640989729225, 'rouge2': 0.43351715686274517, 'rougeL': 0.8635183239962649, 'rougeLsum': 0.8639151493930902}
+
+Question Type: comparison_query
+ Precision: 0.04
+ Recall: 0.03
+ F1 Score: 0.03
+{'rouge1': 0.03224792385654668, 'rouge2': 0.0, 'rougeL': 0.03248080774365821, 'rougeLsum': 0.03244603916332888}
+
+Question Type: null_query
+ Precision: 0.24
+ Recall: 0.23
+ F1 Score: 0.24
+{'rouge1': 0.2352159468438538, 'rouge2': 0.2336655592469546, 'rougeL': 0.2352159468438538, 'rougeLsum': 0.2352159468438538}
+
+Question Type: temporal_query
+ Precision: 0.10
+ Recall: 0.10
+ F1 Score: 0.10
+{'rouge1': 0.10267091399166872, 'rouge2': 0.004802744425385934, 'rougeL': 0.10267091399166872, 'rougeLsum': 0.10267091399166871}
+
+Overall Metrics:
+ Precision: 0.34
+ Recall: 0.34
+ F1 Score: 0.34
+{'rouge1': 0.3385176500676946, 'rouge2': 0.16663406364110592, 'rougeL': 0.3376738481976198, 'rougeLsum': 0.33703471837789806}
+--------------------
+
+For RAG Evaluation of "RAGC.json" (LLM C+rerankerC):
+Question Type: inference_query
+ Precision: 0.89
+ Recall: 0.87
+ F1 Score: 0.87
+{'rouge1': 0.8746338903184042, 'rouge2': 0.46332142838134616, 'rougeL': 0.8731252082604314, 'rougeLsum': 0.872450200103319}
+
+Question Type: comparison_query
+ Precision: 0.11
+ Recall: 0.10
+ F1 Score: 0.10
+{'rouge1': 0.10236903657260382, 'rouge2': 2.9205607476635512e-05, 'rougeL': 0.1033333604528744, 'rougeLsum': 0.10333845443355516}
+
+Question Type: null_query
+ Precision: 0.73
+ Recall: 0.73
+ F1 Score: 0.73
+{'rouge1': 0.7342192691029901, 'rouge2': 0.7342192691029901, 'rougeL': 0.7375415282392026, 'rougeLsum': 0.7342192691029901}
+
+Question Type: temporal_query
+ Precision: 0.17
+ Recall: 0.17
+ F1 Score: 0.17
+{'rouge1': 0.16714312940728035, 'rouge2': 0.0023584905660377358, 'rougeL': 0.1664644605279672, 'rougeLsum': 0.1668758454308385}
+
+Overall Metrics:
+ Precision: 0.45
+ Recall: 0.44
+ F1 Score: 0.44
+{'rouge1': 0.43785579679426784, 'rouge2': 0.23530869155347972, 'rougeL': 0.4379927264318997, 'rougeLsum': 0.4379049414668249}
+--------------------
+
+For RAG Evaluation of "RAGD.json" (LLM D+rerankerC):
+Question Type: inference_query
+Question Type: inference_query
+ Precision: 0.86
+ Recall: 0.79
+ F1 Score: 0.80
+{'rouge1': 0.7994514472455652, 'rouge2': 0.44864147290617884, 'rougeL': 0.7982631594304389, 'rougeLsum': 0.7985140931372552}
+
+Question Type: comparison_query
+ Precision: 0.21
+ Recall: 0.09
+ F1 Score: 0.09
+{'rouge1': 0.08925717472683131, 'rouge2': 0.00046728971962616824, 'rougeL': 0.08914854547855856, 'rougeLsum': 0.08935843592757756}
+
+Question Type: null_query
+ Precision: 0.58
+ Recall: 0.20
+ F1 Score: 0.23
+{'rouge1': 0.2317214628103469, 'rouge2': 0.19997121791386663, 'rougeL': 0.2295239362893118, 'rougeLsum': 0.23174330584454722}
+
+Question Type: temporal_query
+ Precision: 0.20
+ Recall: 0.15
+ F1 Score: 0.15
+{'rouge1': 0.15304711505590812, 'rouge2': 0.0012864493996569467, 'rougeL': 0.1540706951065027, 'rougeLsum': 0.15360476231744002}
+
+Overall Metrics:
+ Precision: 0.46
+ Recall: 0.34
+ F1 Score: 0.35
+{'rouge1': 0.3476477003866049, 'rouge2': 0.16647107024401175, 'rougeL': 0.34721432355420856, 'rougeLsum': 0.34717865606818543}
+--------------------
+
+For RAG Evaluation of "RAGE.json" (LLMA+rerankerB):
+Question Type: inference_query
+ Precision: 0.83
+ Recall: 0.69
+ F1 Score: 0.70
+{'rouge1': 0.7062676252170189, 'rouge2': 0.37225991604710096, 'rougeL': 0.7046343431422754, 'rougeLsum': 0.7053799055781329}
+
+Question Type: comparison_query
+ Precision: 0.19
+ Recall: 0.01
+ F1 Score: 0.01
+{'rouge1': 0.014320764013006339, 'rouge2': 0.0, 'rougeL': 0.014306435451834677, 'rougeLsum': 0.014238849023084622}
+
+Question Type: null_query
+ Precision: 0.10
+ Recall: 0.01
+ F1 Score: 0.02
+{'rouge1': 0.01573712692028916, 'rouge2': 0.00011261895376991947, 'rougeL': 0.015576460128207681, 'rougeLsum': 0.015513066914322984}
+
+Question Type: temporal_query
+ Precision: 0.33
+ Recall: 0.02
+ F1 Score: 0.02
+{'rouge1': 0.022006079680708168, 'rouge2': 0.0, 'rougeL': 0.02212688565686926, 'rougeLsum': 0.021939321865471414}
+
+Overall Metrics:
+ Precision: 0.41
+ Recall: 0.23
+ F1 Score: 0.24
+{'rouge1': 0.23717145005995802, 'rouge2': 0.11835951587789238, 'rougeL': 0.2365568945096802, 'rougeLsum': 0.236880645263634}
+--------------------
+
+For RAG Evaluation of "RAGF.json" (LLM B+rerankerB):
+Question Type: inference_query
+ Precision: 0.86
+ Recall: 0.87
+ F1 Score: 0.86
+{'rouge1': 0.8631127450980389, 'rouge2': 0.44323208450046686, 'rougeL': 0.8601890756302519, 'rougeLsum': 0.8602649393090566}
+
+Question Type: comparison_query
+ Precision: 0.04
+ Recall: 0.03
+ F1 Score: 0.03
+{'rouge1': 0.034832493896106397, 'rouge2': 0.0, 'rougeL': 0.03475609675522706, 'rougeLsum': 0.03480143927213315}
+
+Question Type: null_query
+ Precision: 0.31
+ Recall: 0.31
+ F1 Score: 0.31
+{'rouge1': 0.3111849390919158, 'rouge2': 0.3106312292358804, 'rougeL': 0.3122923588039867, 'rougeLsum': 0.31118493909191586}
+
+Question Type: temporal_query
+ Precision: 0.11
+ Recall: 0.11
+ F1 Score: 0.11
+{'rouge1': 0.10610144572408722, 'rouge2': 0.0030874785591766723, 'rougeL': 0.10610144572408724, 'rougeLsum': 0.10610144572408724}
+
+Overall Metrics:
+ Precision: 0.35
+ Recall: 0.35
+ F1 Score: 0.35
+{'rouge1': 0.3479521686590493, 'rouge2': 0.1783650979953797, 'rougeL': 0.3475279651890712, 'rougeLsum': 0.34722606063184747}
+--------------------
+
+For RAG Evaluation of "RAGG.json" (LLM C+rerankerB):
+Question Type: inference_query
+ Precision: 0.89
+ Recall: 0.88
+ F1 Score: 0.88
+{'rouge1': 0.879906003901674, 'rouge2': 0.47732207761395673, 'rougeL': 0.8790025058213478, 'rougeLsum': 0.8787885598079809}
+
+Question Type: comparison_query
+ Precision: 0.10
+ Recall: 0.10
+ F1 Score: 0.10
+{'rouge1': 0.09726365630985769, 'rouge2': 2.5960539979231565e-05, 'rougeL': 0.09722315854604557, 'rougeLsum': 0.09754220375161082}
+
+Question Type: null_query
+ Precision: 0.79
+ Recall: 0.79
+ F1 Score: 0.79
+{'rouge1': 0.7873754152823921, 'rouge2': 0.7873754152823921, 'rougeL': 0.7873754152823921, 'rougeLsum': 0.7906976744186046}
+
+Question Type: temporal_query
+ Precision: 0.18
+ Recall: 0.18
+ F1 Score: 0.18
+{'rouge1': 0.1835334476843911, 'rouge2': 0.003001715265866209, 'rougeL': 0.1831903945111492, 'rougeLsum': 0.18490566037735848}
+
+Overall Metrics:
+ Precision: 0.45
+ Recall: 0.45
+ F1 Score: 0.45
+{'rouge1': 0.44671516452991544, 'rouge2': 0.24543448683340396, 'rougeL': 0.4476592547815919, 'rougeLsum': 0.447982372812051}
+--------------------
+
+For RAG Evaluation of "RAGH.json" (LLM D+rerankerB):
+Question Type: inference_query
+ Precision: 0.88
+ Recall: 0.81
+ F1 Score: 0.82
+{'rouge1': 0.819658270207263, 'rouge2': 0.4567313219546645, 'rougeL': 0.8180626887928792, 'rougeLsum': 0.8179101628024945}
+
+Question Type: comparison_query
+ Precision: 0.21
+ Recall: 0.08
+ F1 Score: 0.09
+{'rouge1': 0.08849886507442964, 'rouge2': 0.0, 'rougeL': 0.08812784305828994, 'rougeLsum': 0.0886964770310723}
+
+Question Type: null_query
+ Precision: 0.59
+ Recall: 0.23
+ F1 Score: 0.26
+{'rouge1': 0.25673182381659354, 'rouge2': 0.2257127413678897, 'rougeL': 0.25590468429915336, 'rougeLsum': 0.2545492789456485}
+
+Question Type: temporal_query
+ Precision: 0.19
+ Recall: 0.15
+ F1 Score: 0.16
+{'rouge1': 0.1574896730243188, 'rouge2': 0.0, 'rougeL': 0.1569519325573034, 'rougeLsum': 0.15705991175016876}
+
+Overall Metrics:
+ Precision: 0.46
+ Recall: 0.35
+ F1 Score: 0.36
+{'rouge1': 0.35814078705831454, 'rouge2': 0.17218602904263108, 'rougeL': 0.3571677205710252, 'rougeLsum': 0.3569121433294068}

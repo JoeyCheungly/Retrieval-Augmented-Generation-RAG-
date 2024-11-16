@@ -1,0 +1,42 @@
+For file: output/rankerA.json
+Hits@10: 0.5348
+Hits@4: 0.4018
+MAP@10: 0.1408
+MRR@10: 0.3299
+NDCG@10: 0.5348
+--------------------
+For file: output/rerankerA.json
+Hits@10: 0.6204
+Hits@4: 0.5410
+MAP@10: 0.2149
+MRR@10: 0.4936
+NDCG@10: 0.6204
+--------------------
+For file: output/rankerB.json
+Hits@10: 0.6856
+Hits@4: 0.5322
+MAP@10: 0.2007
+MRR@10: 0.4489
+NDCG@10: 0.6856
+--------------------
+For file: output/rerankerB.json
+Hits@10: 0.7481
+Hits@4: 0.6563
+MAP@10: 0.2703
+MRR@10: 0.6016
+NDCG@10: 0.7481
+--------------------
+For file: output/rankerC.json
+Hits@10: 0.6896
+Hits@4: 0.5463
+MAP@10: 0.1997
+MRR@10: 0.4520
+NDCG@10: 0.6896
+--------------------
+For file: output/rerankerC.json
+Hits@10: 0.7490
+Hits@4: 0.6661
+MAP@10: 0.2687
+MRR@10: 0.6029
+NDCG@10: 0.7490
+--------------------
