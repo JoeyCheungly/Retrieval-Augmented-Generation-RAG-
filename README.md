@@ -7,10 +7,12 @@ This project implements Retrieval-Augmented Generation (RAG) using different ran
 Here is a brief overview of the files included in this project:
 
 - **report.pdf**: Detailed report explaining the methodology, experiments, and results of the project.
-- **rankerA.py, rankerB.py, rankerC.py**: Python scripts implementing different ranker models used in the retrieval stage.
-- **rerankerA.py, rerankerB.py, rerankerC.py**: Python scripts implementing different reranker models to enhance the retrieval results.
-- **RAGA.py, RAGB.py, RAGC.py, RAGD.py**: Python scripts implementing the RAG models A, B, C, D respectively, using LLMs A, B, C and D. They operate on documents retrieved by the best ranker.
-- **RAGE.py, RAGF.py, RAGG.py, RAGH.py**: Python scripts implementing the RAG models E, F, G, and H, respectively, using LLMs E, F, G, and H. They operate on documents retrieved by the second-best ranker.
+- **retrieval/**:
+    - **rankerA.py, rankerB.py, rankerC.py**: Python scripts implementing different ranker models used in the retrieval stage.
+    - **rerankerA.py, rerankerB.py, rerankerC.py**: Python scripts implementing different reranker models to enhance the retrieval results.
+- **RAGs/**:
+    - **RAGA.py, RAGB.py, RAGC.py, RAGD.py**: Python scripts implementing the RAG models A, B, C, D respectively, using LLMs A, B, C and D. They operate on documents retrieved by the best ranker.
+    - **RAGE.py, RAGF.py, RAGG.py, RAGH.py**: Python scripts implementing the RAG models E, F, G, and H, respectively, using LLMs E, F, G, and H. They operate on documents retrieved by the second-best ranker.
 - **MyRAGEval.py**: Script used to evaluate the performance of RAG models.
 - **MyRetEval.py**: Script used to evaluate the performance of rankers and rerankers in the retrieval stage.
 - **requirements.txt**:  List of dependencies required to reproduce the project.
